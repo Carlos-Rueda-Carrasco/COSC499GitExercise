@@ -1,7 +1,8 @@
 # COSC499GitExercise
  
  
-Feature 2 basically:
-- Goes through the array and extracts the odd numbers
-- Sorts the array with odd numbers 
-- Prints the array
+master branch basically:
+- Combines the two features together nicely 
+- Everything is in their own array, odd numbers in the odd array and the even numbers in the even array
+- Both of the arrays are sorted
+- All the arrays are printed
