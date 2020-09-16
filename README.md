@@ -1,6 +1,7 @@
 # COSC499GitExercise
  
-Feature 1 basically:
-- Goes throught the array and extracts the even numbers from the initial array
-- Sorts the array of even numbers
-- Prints the array of even numbers out
+master branch basically:
+- Combines the two features together nicely 
+- Everything is in their own array, odd numbers in the odd array and the even numbers in the even array
+- Both of the arrays are sorted
+- All the arrays are printed
