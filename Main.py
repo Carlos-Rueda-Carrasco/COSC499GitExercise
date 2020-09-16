@@ -6,6 +6,16 @@ arrEven = []
 print("Welcome, to the 499 Git Exercise!")
 print("We will extract the odd and even numbers and putting them into two separate arrays.")
 print("Each array will be sorted (both the even and the odd)")
+print(" ")
+print("We will extract the odd and even numbers and putting them into two separate arrays.")
+print(" ")
+print("Each array will be sorted (both the even and the odd)")
+print(" ")
+
+for num in arrNum:
+    if num%2 == 0:
+        arrEven.append(num)
+        arrEven.sort()
 
 for num in arrNum:
     if num%2 != 0:
@@ -19,6 +29,14 @@ class testOdd(unittest.TestCase):
 
 print("Original Array (sorted): ", arrNum)
 print("Odd array (sorted): ", arrOdd)
+print("Done!")
+
+if __name__ == '__main__':
+    unittest.main()
+print("Original Array (sorted): ", arrNum)
+print("Even array (sorted): ", arrEven)
+print("Odd array (sorted): ", arrOdd)
+print(" ")
 print("Done!")
 
 if __name__ == '__main__':
