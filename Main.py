@@ -28,12 +28,6 @@ class testOdd(unittest.TestCase):
         self.assertEqual(arrOdd, [1, 1, 3, 3, 3, 5, 5, 5, 7, 7, 9, 9])
 
 print("Original Array (sorted): ", arrNum)
-print("Odd array (sorted): ", arrOdd)
-print("Done!")
-
-if __name__ == '__main__':
-    unittest.main()
-print("Original Array (sorted): ", arrNum)
 print("Even array (sorted): ", arrEven)
 print("Odd array (sorted): ", arrOdd)
 print(" ")
