@@ -1,4 +1,6 @@
 import unittest
+
+#Author: Carlos
 arrNum = [7, 9, 3, 5, 2, 6, 5, 4, 6, 1, 6, 3, 7, 5, 8, 3, 1, 2, 8, 9]
 arrOdd = []
 arrEven = []
